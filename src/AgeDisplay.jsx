@@ -1,3 +1,3 @@
-export function AgeDisplay(propos) {
-    return <div>Your are {propos.age} years old.</div>
+export function AgeDisplay(props) {
+    return <div>Your are {props.age} years old.</div>
 }
